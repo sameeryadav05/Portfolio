@@ -24,6 +24,7 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    margin:.3rem;
 }
 section{
     min-height:100vh;
