@@ -8,8 +8,8 @@
     border:none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Nunito',sans-serif;
     overflow-x: hidden;
+    font-family: 'Nunito',sans-serif;
 }
 :root{
     --bg-color:#191f36;
@@ -25,7 +25,6 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    margin:.3rem;
 }
 section{
     min-height:100vh;
@@ -429,11 +428,12 @@ span{
         order: 2;
     }
     .home-img img{
-        width:70vw;
+        width:90vw;
         margin-top: 4rem;
     }
     .about{
         flex-direction: column;
+        padding-left:5px;
     }
     .about-img{
         margin-left: 2px;
